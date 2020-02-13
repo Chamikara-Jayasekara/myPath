@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="cotainer">
+    <div class="portfolio-meny">
+        <ul>
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".web">web design</li>
+            <li data-filter=".seo">Seo</li>
+            <li data-filter=".graphics">Graphics</li>
+        </ul>
+    </div>
+    <div class="portfoli-item">
+        <div class="item-web">
+            <img src="../img/ESOFT-Metro-Campus-Logo.png" alt="" width="200px" height="100px">
+        </div>
+        <div class="item-seo">
+            <img src="../img/ijse.PNG" alt="" width="200px" height="100px">
+        </div>
+        <div class="item-graphics">
+            <img src="../img/sliit-logo.jpg" alt="" width="200px" height="100px">
+        </div>
+    </div>
+</div>
+<script src="../js/jquery/jquery-2.2.4.min.js"></script>
+<script src="../js/isotope.pkgd.min.js"></script>
+<script>
+    $('.portfoli-item').isotope({
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
+    });
+    $('.portfolio-meny ul li').click(function () {
+        $('.portfolio-meny ul li').removeClass('active');
+        $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+        $('.portfoli-item').isotope({
+            filter: selector
+        });
+        return false;
+    });
+</script>
+</body>
+</html>

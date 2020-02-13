@@ -1,77 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c97bf9ec-e776-4b5f-91ac-5969fab987c2" name="Default Changelist" comment="" />
+    <list default="true" id="c97bf9ec-e776-4b5f-91ac-5969fab987c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminpanel/action.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminpanel/actions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminpanel/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminpanel/details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminpanel/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/isotope.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/adminstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/framework.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/homepagestyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/js/jssor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage/login form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="11" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="my Path" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my Path" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1RrMjOP4Zx0Lwmz38z8BUaCVHgU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\myPath\homepage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\myPath\css" />
+      <recent name="C:\xampp\htdocs\myPath\adminpanel" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -95,57 +92,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564993641725</updated>
-      <workItem from="1564993643707" duration="218000" />
+      <workItem from="1564993643707" duration="5437000" />
+      <workItem from="1566200967520" duration="12774000" />
+      <workItem from="1566279655422" duration="890000" />
+      <workItem from="1566747069264" duration="16714000" />
+      <workItem from="1566799909535" duration="13956000" />
+      <workItem from="1566839719968" duration="8402000" />
+      <workItem from="1566885556479" duration="933000" />
+      <workItem from="1568095060210" duration="7640000" />
+      <workItem from="1569127680174" duration="23780000" />
+      <workItem from="1569212589039" duration="30644000" />
+      <workItem from="1569261197412" duration="2755000" />
+      <workItem from="1569303661674" duration="22428000" />
+      <workItem from="1569385682122" duration="7093000" />
+      <workItem from="1570420903754" duration="1172000" />
+      <workItem from="1570426513274" duration="39276000" />
+      <workItem from="1570509309340" duration="39686000" />
+      <workItem from="1570592287834" duration="81000" />
+      <workItem from="1570592446226" duration="43427000" />
+      <workItem from="1570675876073" duration="16024000" />
+      <workItem from="1570696611074" duration="238000" />
+      <workItem from="1570696873032" duration="26413000" />
+      <workItem from="1570767513300" duration="26613000" />
+      <workItem from="1570851150430" duration="14209000" />
+      <workItem from="1570937258030" duration="18490000" />
+      <workItem from="1570983950541" duration="3585000" />
+      <workItem from="1571021493272" duration="28604000" />
+      <workItem from="1571111032339" duration="1081000" />
+      <workItem from="1571113914678" duration="25000" />
+      <workItem from="1571144681011" duration="13395000" />
+      <workItem from="1571228089764" duration="41000" />
+      <workItem from="1571233731461" duration="3760000" />
+      <workItem from="1573190676235" duration="8129000" />
+      <workItem from="1573212699596" duration="1506000" />
+      <workItem from="1573368149271" duration="87000" />
+      <workItem from="1581430467040" duration="1036000" />
+      <workItem from="1581434486570" duration="785000" />
+      <workItem from="1581525898763" duration="79000" />
+      <workItem from="1581575453843" duration="450000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

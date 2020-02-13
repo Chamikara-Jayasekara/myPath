@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyPath</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/semantic.min.css">
+    <link rel="stylesheet" href="../../css/jquery-ui.min.css">
+    <script src="../../js/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".register").click(function () {
+                $(".other").show();
+                $(".content").hide();
+                $(".register").addClass('active');
+                $(".login").removeClass('active');
+            });
+            $(".login").click(function () {
+                $(".other").hide();
+                $(".content").show();
+                $(".login").addClass('active');
+                $(".register").removeClass('active');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="main">
+        <div id="tab-btn">
+            <a href="" class="login active">Sign in</a>
+            <a href="" class="register">Sign up</a>
+        </div>
+        <div class="content">
+            <form action="" method="post" id="login-box">
+                <input type="text"  name="username" class="inp" placeholder="Username" required autofocus><br>
+                <input type="password"  name="password" class="inp" placeholder="Password" required autofocus><br>
+                <a href="#" id="forgot">Forgot Password??</a><br>
+                <input type="submit" name="login" value="SIGN IN" id="sub-btn">
+            </form>
+        </div>
+        <div class="other">
+            <form action="" method="post" id="reg-box">
+                <input type="text" name="uname" placeholder="Enter Username" class="inp" required autofocus><br>
+                <input type="email" name="email" placeholder="Enter Username" class="inp" required ><br>
+                <input type="password" name="pass" placeholder="Enter Username" class="inp" required ><br>
+                <input type="password" name="repass" placeholder="Confirm Password" class="inp" required ><br>
+                <input type="text" name="submit" placeholder=register" value="SIGN UP" id="sub-btn"><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

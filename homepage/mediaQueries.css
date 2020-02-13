@@ -1,0 +1,85 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .welcome-area{
+        width: 500px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+@media (max-width: 320px) {
+    .welcome-area {
+        margin-top: 30px;
+        width: 500px;
+    }
+    .navbar-toggler{
+        height: 50px;
+        width: 100px;
+        margin-left: -100px;
+        background-color: #0e566c;
+    }
+    .all-catagories {
+        margin-top: 1000px;
+    }
+
+    #nav-places {
+        height: 245px;
+    }
+
+    #searchInSubmitButton {
+        margin-top: 78px;
+        margin-left: -100px;
+    }
+
+    #searchCrSubmitButton {
+        margin-top: 78px;
+        margin-left: -100px;
+    }
+    #afterol{
+        margin-left: 100px;
+        margin-bottom: 4px;
+        margin-top: 10px;
+    }
+    #afteral{
+        margin-left: 100px;
+        margin-bottom: 4px;
+    }
+    #business{
+        margin-left: 100px;
+        margin-bottom: 4px;
+    }
+    #money{
+        margin-left: 100px;
+        margin-bottom: 4px;
+    }
+    #institute-tab{
+        width: 250px;
+        margin-left: 131px;
+    }
+    #courses-tab{
+        width: 250px;
+        margin-left: 131px;
+    }
+    .hero-search-form .nav-tabs .nav-link{
+      font-size: 18px;
+    }
+    .welcometomypath{
+        margin-top: -1073px;
+        background-color: bisque;
+        width: 500px;
+    }
+    .single-catagory-area:hover {
+        box-shadow: 5px 10px 10px #002752 ;
+        box-decoration-break: slice;
+        border-right:10px solid #002752 ;
+        box-snap: center;
+    }
+
+}

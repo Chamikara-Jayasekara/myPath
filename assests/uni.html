@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPathLk</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Abel');
+
+        html, body {
+            background: #FCEEB5;
+            font-family: Abel, Arial, Verdana, sans-serif;
+        }
+
+    .card-header{
+        background-image: url("../img/ditech.jpg");
+    }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner-area{
+            height: 100vh;
+            width: 100%;
+            background-image: url("../img/Untitled-2.png");
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+
+        }
+        .menu-area{
+            position: static;
+        }
+        .mega-area{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            right: 0;
+            padding: 15px;
+        }
+        .dropdown-item{
+            padding: 5px 0;
+        }
+        h5{
+            font-family: "Varela Round", sans-serif;
+            letter-spacing: 2px;
+            font-weight: 900;
+        }
+        .navbar{
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<div class="banner-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark rounded">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbars " aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown menu-area">
+                                <a class="nav-link dropdown-toggle" href="#" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Courses
+                                </a>
+                                <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                                   <div class="row">
+                                       <div class="col-sm-6 col-lg-3">
+                                           <h5>Accounting</h5>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+
+                                       </div>
+                                       <div class="col-sm-6 col-lg-3">
+                                           <h5>Accounting</h5>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+
+                                       </div>
+                                       <div class="col-sm-6 col-lg-3">
+                                           <h5>Accounting</h5>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+
+                                       </div>
+                                       <div class="col-sm-6 col-lg-3">
+                                           <h5>Accounting</h5>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+                                           <a href="#" class="dropdown-item">Accounting and finance</a>
+
+                                       </div>
+                                   </div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card border-primary mb-3" style="max-width: 18rem;">
+    <div class="card-header">Ditec</div>
+    <div class="card-body text-primary">
+        <h5 class="card-title">Primary card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+        </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner-area{
+    background-size: cover;
+    background-position: center center;
+
+}
+.menu-area{
+    position: static;
+}
+.mega-area{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+.dropdown-item{
+    padding: 5px 0;
+}
+h5{
+    font-family: "Varela Round", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.navbar{
+    margin-top: 2%;
+}
